@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Snake Game</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="title">
+		<h3 class="score_info">Your Score: <span class="score">0</span></h3>
+		<h1 class="game_over">game over</h1>
+		<h2 class="sub">press enter to start new game</h2>
+	</div>
+
+	<div class="new_record-title">New Record!!</div>
+
+	<div class="info">
+		<p class="info-s">Score: <span class="score">0</span></p>
+		<p class="info-r">Record: <span class="record">0</span></p>
+	</div>
+
+	<canvas id="canvas" width="1000" height="700"></canvas>
+
+	<audio id="collision" src="sounds/collision.mp3"></audio>
+	<audio id="game_over" src="sounds/game_over.mp3"></audio>
+	<audio id="main" src="sounds/main.mp3"></audio>
+	<audio id="took_an_apple" src="sounds/took_an_apple.mp3"></audio>
+	<audio id="record" src="sounds/record.mp3"></audio>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
